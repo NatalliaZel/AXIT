@@ -1,0 +1,187 @@
+.header {
+  flex: 0 0 auto;
+}
+
+.header__wrapper {
+  background-color: black;
+}
+
+.header__container {
+  max-width: 1225px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .header__container {
+    max-width: 990px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__container {
+    max-width: 290px;
+    padding: 0 10px;
+  }
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .header__row {
+    padding: 17px 0;
+    flex-wrap: wrap;
+  }
+}
+
+.header__logo {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .header__logo {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__logo {
+    font-size: 30px;
+    flex: 0 0 50%;
+  }
+}
+
+.header__logo span {
+  color: #ec7979;
+}
+
+@media screen and (max-width: 500px) {
+  .header__nav {
+    display: none;
+  }
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__link {
+  font-family: "Open Sans";
+  font-weight: 600;
+  line-height: 19px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.header__link a {
+  color: inherit;
+}
+
+.header__link:hover {
+  opacity: 1;
+}
+
+.header__link:nth-child(1) {
+  margin: 2px 64px 0 0;
+}
+
+.header__link:nth-child(2) {
+  margin: 2px 71px 0 0;
+}
+
+.header__link:nth-child(3) {
+  margin: 2px 64px 0 0;
+}
+
+.header__link:nth-child(4) {
+  margin: 2px 60px 0 0;
+}
+
+.header__link:nth-child(5) {
+  margin: 2px 28px 0 0;
+}
+
+#burger,
+.header__label,
+.header__label-2 {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header__label {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #burger:checked ~ .header__hidden-menu {
+    display: block;
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #burger:checked ~ .header__label {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #burger:checked ~ .header__label-2 {
+    display: block;
+  }
+}
+
+.header__line {
+  width: 25px;
+  border: 1px solid white;
+}
+.line-top {
+  margin: 0 0 7px 0;
+}
+.line-center {
+  margin: 0 0 7px 0;
+}
+
+.line-top-2 {
+  transform: rotate(45deg);
+}
+
+.line-bottom-2 {
+  transform: translate(0, -2px) rotate(-45deg);
+}
+
+.header__hidden-menu {
+  display: none;
+}
+
+.header__hidden-list {
+  padding: 30px 0;
+}
+
+.header__hidden-link {
+  font-family: "Open Sans";
+  font-weight: 600;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.header__hidden-link a {
+  color: inherit;
+}
+
+.header__hidden-link:last-child {
+  margin: 0;
+}

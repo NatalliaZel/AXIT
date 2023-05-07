@@ -1,0 +1,149 @@
+.respons {
+  padding: 80px 0 50px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .respons {
+    padding: 50px 0 30px 0;
+  }
+}
+
+.respons__title {
+  margin: 0 0 54px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__title {
+    margin: 0 0 35px 0;
+  }
+}
+
+.respons__text {
+  margin: 40px 0 80px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__text {
+    margin: 24px 0;
+  }
+}
+
+.respons__row {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .respons__row {
+    flex-wrap: wrap;
+    margin: 0 0 32px 0;
+  }
+}
+
+.respons__feedback:nth-child(1),
+.respons__feedback:nth-child(2) {
+  margin: 0 30px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .respons__feedback:nth-child(1),
+  .respons__feedback:nth-child(2) {
+    margin: 0 0 50px 0;
+  }
+}
+
+.respons__comment {
+  width: 370px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  background: #e2e2e2;
+  border-radius: 10px;
+  padding: 37px 20px;
+  margin: 0 0 66px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__comment {
+    width: 317px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .respons__comment {
+    width: 290px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 50px 15px;
+    margin: 0 0 34px 0;
+  }
+}
+
+.respons__triangle {
+  width: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #e2e2e2;
+  position: absolute;
+  bottom: -30px;
+  left: 60px;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__triangle {
+    border-top: 25px solid #e2e2e2;
+    bottom: -24px;
+    left: 25px;
+  }
+}
+
+.respons__person {
+  display: flex;
+}
+
+.respons__photo {
+  margin: 0 30px 0 0;
+}
+
+.respons__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.respons__name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__name {
+    font-size: 18px;
+  }
+}
+
+.respons__position {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1300px) {
+  .respons__position {
+    font-size: 14px;
+  }
+}

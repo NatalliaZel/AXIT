@@ -1,0 +1,337 @@
+.promo {
+  background: url(./images/main/promo_background.png) 0 0 / cover no-repeat;
+}
+.promo__wrapper {
+  background: url(./images/main/promo_background_grey.png);
+  padding: 208px 0 185px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__wrapper {
+    padding: 138px 0 106px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__wrapper {
+    padding: 84px 0 50px 0;
+  }
+}
+
+.promo__row {
+  display: flex;
+  align-items: space-between;
+  position: relative;
+}
+
+@media screen and (max-width: 500px) {
+  .promo__row {
+    flex-wrap: wrap;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    max-width: 990px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 290px;
+  }
+}
+
+.promo__info {
+  flex: 0 0 58%;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__info {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__info {
+    flex-basis: 100%;
+  }
+}
+
+.promo__title {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 23px 0 72px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__title {
+    font-size: 50px;
+    margin: 20px 0 54px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__title {
+    display: none;
+  }
+}
+
+.promo__title span {
+  color: #ec7979;
+}
+
+.promo__subtitle {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 55px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 0 41px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 0 43px 0;
+  }
+}
+
+.promo__line {
+  margin: 0 0 42px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__line {
+    margin: 0 0 31px 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__line {
+    margin: 0 auto;
+  }
+}
+
+.white-line {
+  width: 170px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 1300px) {
+  .white-line {
+    width: 134px;
+  }
+}
+
+.promo__text {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 270px;
+  margin: 0 0 42px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__text {
+    font-size: 14px;
+    line-height: 16px;
+    width: 183px;
+    margin: 0 0 31px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__text {
+    margin: 42px 0;
+    text-align: center;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__button {
+    margin: 0 0 56px 0;
+  }
+}
+
+.button {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 370px;
+  height: 58px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__button {
+    width: 183px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__button {
+    width: 290px;
+    height: 50px;
+  }
+}
+
+.button:hover {
+  color: #ec7979;
+  border: 2px solid #ec7979;
+}
+
+.button:active {
+  color: #ffffff;
+  background: #ab4949;
+  border: 2px solid #ab4949;
+}
+
+.promo__form {
+  width: 470px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 50px 50px 0 50px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__form {
+    width: 398px;
+    flex-basis: 55%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .promo__form {
+    width: 290px;
+    height: 380px;
+    flex-basis: 100%;
+    padding: 30px 20px 0 20px;
+  }
+}
+
+.form {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    position: relative;
+  }
+}
+
+.form__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 0 95px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .form__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form__title {
+    font-size: 14px;
+    margin: 0 0 50px 0;
+  }
+}
+
+.form__title span {
+  color: #ec7979;
+}
+
+form input {
+  font-family: "Open Sans";
+  color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 16px;
+  margin-bottom: 33px;
+  width: 370px;
+}
+
+@media screen and (max-width: 1300px) {
+  form input {
+    width: 298px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  form input {
+    width: 240px;
+  }
+}
+
+.form__button {
+  background: #ec7979;
+  border-radius: 0px 0px 10px 10px;
+  width: 470px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1300px) {
+  .form__button {
+    width: 398px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form__button {
+    width: 290px;
+  }
+}
+
+.form__button:hover {
+  background: #ab4949;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.form__button:active {
+  background: #ec7979;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: inset 0px 0px 10px #ab4949;
+}

@@ -1,0 +1,126 @@
+/* на иконки нужно сделать ссылки */
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.footer__row {
+  background-color: black;
+  padding: 43px 0 27px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer__row {
+    padding: 39px 0 27px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__row {
+    padding: 35px 0 45px 0;
+  }
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 0;
+  margin: 0 0 30px 0;
+}
+
+.footer__icons img:nth-child(1) {
+  margin: 0px 51px 0px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(1) {
+    width: 11px;
+    height: 20px;
+    margin: 0px 26px 0px 0;
+  }
+}
+
+.footer__icons img:nth-child(2) {
+  margin: 0px 44px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(2) {
+    width: 20px;
+    height: 17px;
+    margin: 0px 22px 0px 0;
+  }
+}
+
+.footer__icons img:nth-child(3) {
+  margin: 0px 43px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(3) {
+    width: 26px;
+    height: 26px;
+    margin: 0px 19px 0px 0;
+  }
+}
+
+.footer__icons img:nth-child(4) {
+  margin: 0px 43px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(4) {
+    width: 23px;
+    height: 21px;
+    margin: 0px 22px 0px 0;
+  }
+}
+
+.footer__icons img:nth-child(5) {
+  margin: 0px 43px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(5) {
+    width: 19px;
+    height: 19px;
+    margin: 0px 22px 0px 0;
+  }
+}
+
+.footer__icons img:nth-child(6) {
+  margin: 0px 46px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(6) {
+    width: 21px;
+    height: 21px;
+    margin: 0px 23px 0px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__icons img:nth-child(7) {
+    width: 17px;
+    height: 17px;
+    margin: 0;
+  }
+}
+
+.footer__info {
+  font-family: "Raleway";
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+  .footer__info {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

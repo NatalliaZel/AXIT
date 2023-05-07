@@ -1,0 +1,77 @@
+.stylish {
+  background: url(./images/stylish/cover.png) 0 0 / cover no-repeat,
+    url(./images/stylish/background.png) 0 0 / cover no-repeat;
+  padding: 80px 0 50px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .stylish {
+    padding: 50px 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stylish {
+    padding: 50px 0 58px 0;
+  }
+}
+
+.stylish__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stylish__title {
+  color: #ffffff;
+  margin: 0 0 54px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .stylish__title {
+    margin: 0 0 35px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stylish__title {
+    margin: 0 0 50px 0;
+  }
+}
+
+.stylish__line {
+  width: 170px;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+}
+
+.stylish__text {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 40px 0 80px 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .stylish__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 32px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stylish__text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin: 32px 0 66px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stylish__button {
+    width: 290px;
+  }
+}
